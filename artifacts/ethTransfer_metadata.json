@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transfer.sol": "ethTransfer"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transfer.sol": {
+			"keccak256": "0x7e4d6d1e17751a7df1a93536b3fecfb7592ea31cef029ff68a4ed9110c50f8e1",
+			"license": "kriti",
+			"urls": [
+				"bzz-raw://03bc140bef533df8dd965f7107f6f78f0a7ecedc1f9b5c7b7877a955922f02af",
+				"dweb:/ipfs/QmQ1AY1J6ZsnMnygqz47Q86xcaGzES1wx3jR3aKwSd1C61"
+			]
+		}
+	},
+	"version": 1
+}
